@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bulb Toggler</title>
+</head>
+<body>
+    <div class="container">
+        <h1>🦹‍♂️ Bollywood  Superstar 🦹‍♀️</h1>
+        <img src="Sharukha Khan.jpg" alt="Star" id="img">
+        <div class="btn-container">
+        <button type="button" onclick="SharukhaKhan()" id="SharukhaKhan">Sharukha Khan</button>
+        <button type="button" onclick="HrithikRoshan()" id="HrithikRoshan">Hrithik Roshan</button>
+        <button type="button" onclick="SalmanKhan()" id="SalmanKhan">Salman Khan</button>
+        <button type="button" onclick="RanveerSingh()" id="RanveerSingh">Ranveer Singh</button>
+        </div>
+    </div>
+    <Script>
+        const img = document.getElementById("img");
+
+        function SharukhaKhan()
+        {
+            img.src ="Sharukha Khan.jpg";
+            
+        }
+
+        function HrithikRoshan()
+        {
+            img.src ="hrithik roshan.jpg";
+        }
+
+        function SalmanKhan()
+        {
+            img.src ="SalmanKhan.jpg";
+        }
+
+        function RanveerSingh()
+        {
+            img.src ="ranveer singh.jpg";
+        }
+
+    </Script>
+</body>
+</html>
